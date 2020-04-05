@@ -1,0 +1,87 @@
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(./fonts/Inconsolata-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(./fonts/Inconsolata-Regular.ttf);
+}
+
+body { 
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Inconsolata',monospace;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+
+.navbar-left {
+  display: flex;
+  justify-content: start;
+  width: 15%;
+  font-size: 1.5rem;
+}
+
+#nav-logo{
+  width: 30px;
+}
+
+.navbar-right {
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.intro {
+  margin-top: 100px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.nickname {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.description {
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.links{
+  padding-top: 2rem;
+}
+
+.link-item {
+  height: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
