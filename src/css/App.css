@@ -9,6 +9,10 @@
   src: url(./fonts/Inconsolata-Regular.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body { 
   margin: 0 ;
   padding: 0 ;
@@ -91,3 +95,8 @@ p {
 }
 
 /* PROJECTS */
+
+.project-links:hover {
+  color: white;
+  text-decoration: none;
+}

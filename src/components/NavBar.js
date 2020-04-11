@@ -13,8 +13,10 @@ export default function NavBar() {
                 <a  className="font-weight-bold" style={{ margin: '0px 0px 0px 5px' }} href={'/'} >dechariot</a>
             </Container>
             <Container className="mr-0 d-flex align-items-center justify-content-end navbar-right">
-                <a className="p-3" href={'/projects'}>Projects</a>
-                <a p-className="p-3" href={'/about'}>About</a>
+                <a className="p-3" href="#myprojects" >Projects</a>
+                <a className="p-3" href="#about-me" >About</a>
+                <a className="p-3" href="#contact-me" >Contact</a>
+
             </Container>
         </Container>
     )

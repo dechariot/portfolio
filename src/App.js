@@ -7,14 +7,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/about" exact component={About} />
-      <Route path="/projects" exact component={Projects}/>
-    </Router>
+    <div className="App">
+      <NavBar/>
+      <HomePage/>
+      <About/>
+      <Projects/>
+      <Footer/>
+    </div>
   );
 }
 

@@ -12,7 +12,7 @@ import avatar from '../avatar.png';
 export default function HomePage() {
     return (
         <Container fluid className="ml-0 mr-0 p-0">
-            <NavBar />
+            {/* <NavBar /> */}
             <Container className="intro d-flex flex-column align-items-center">
                 <img src={avatar} className="avatar" />
                 <Container className="nickname"><a href="/About">Nguyen Sang say: "Hello Universer!"</a></Container>
@@ -26,7 +26,11 @@ export default function HomePage() {
                     </a>             
                 </Container>
             </Container>
-            <Footer />
+            {/* <Footer /> */}
+            <br></br>
+            <br></br>
+            <br></br>
+            <hr></hr>
         </Container>
     )
 }
